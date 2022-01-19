@@ -17,7 +17,7 @@ function App() {
         <>
           <Sidebar />
           <Switch>
-            <Route path="/">
+            <Route path="/" exact>
               <Dashboard />
             </Route>
             <Route path="/viewbugs">
